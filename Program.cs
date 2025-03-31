@@ -10,6 +10,13 @@ namespace даша
     {
         static void Main(string[] args)
         {
+            Rectangle rect = new Rectangle();
+            rect.A = 2;
+            rect.B = 3;
+            rect.ShowDetails();
+            double p = rect.P();
+            Console.WriteLine($"Периметр: {p}");
+            Console.ReadKey();
         }
     }
 }
